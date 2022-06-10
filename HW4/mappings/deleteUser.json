@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "DELETE",
+        "urlPathPattern": "/user/([A-Za-z0-9]*)"
+    },
+    "response": {
+        "status": 200,
+        "body": "Jal' tebya",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

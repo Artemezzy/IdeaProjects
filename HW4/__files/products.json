@@ -1,0 +1,16 @@
+{
+    [
+        {
+            "type": "Products.Wildberries",
+            "price": 500,
+            "title": "wildberries",
+            "color": "red"
+        },
+        {
+            "type": "Products.Cherry",
+            "price": 550,
+            "title": "cherry",
+            "withBones": true
+        }
+    ]
+}
