@@ -1,0 +1,15 @@
+{
+    "request": {
+        "urlPathPattern": "/telephone_number",
+        "queryParameters": {
+            "telephone_number": {
+                "matches": "(.+[0-9]{11})"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "body": "Molodec!"
+    }
+}

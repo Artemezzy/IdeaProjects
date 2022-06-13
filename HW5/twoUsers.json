@@ -1,0 +1,16 @@
+{
+    "request": {
+        "urlPathPattern": "/twoUsers",
+        "method": "GET",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.users[?(@.name=~/[a-zA-Z0-9]*/)]",
+                "equalTo": "2"
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "body": "Molodec!"
+    }
+}

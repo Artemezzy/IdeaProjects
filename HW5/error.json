@@ -1,0 +1,14 @@
+{
+    "priority": 10,
+    "request": {
+        "method": "ANY",
+        "urlPathPattern": ".*"
+    },
+    "response": {
+        "status": 404,
+        "jsonBody": {
+            "error": 404,
+            "description": "ti ne prav"
+        }
+    }
+}   
